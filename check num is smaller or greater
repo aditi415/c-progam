@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    if(n<10)
+    {
+        printf("%d number is small");
+    }
+    else {
+        printf("%d number is greater");
+    }
+    return 0;
+}
