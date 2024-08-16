@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int num1,num2,sum,subtract,multiply;
+    printf("Enter number 1 & 2:");
+    scanf("%d %d",&num1,&num2);
+
+    subtract=num1-num2;
+    printf("%d-%d=%d",num1,num2,subtract);
+ return 0;
+}
+
+    
