@@ -1,1 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+    int a=5;
+    printf("%d is an integer",a);
+    return 0;
+}
