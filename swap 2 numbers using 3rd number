@@ -1,12 +1,18 @@
 #include<stdio.h>
 int main()
 {
-  int a=5;
-  int b=10;
-  int c;
-  printf("a=%d,b=%d,c=%d",a,b,c);
-  c=b;
-  b=a;
-  a=c;
+  int i,j,temp;
+  printf("Enter values of i and j");
+  scanf("%d%d",&i,&j);
+  printf("value of i=%d\n",i);
+  printf("value of j=%d\n",j);
+  temp=i;
+  i=j;
+  j=temp;
+  printf("values after swapping\n");
+  printf("value of i=%d\n",i);
+  printf("value of j=%d\n",j);
+
+
   return 0;
 }
