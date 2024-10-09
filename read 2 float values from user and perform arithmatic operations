@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,sum,mul,sub,div;
+    printf("Enter 2 float");
+    scanf("%f %f",&a,&b);
+    sum=a+b;                                 // addition
+    printf("Addition of 2 int is %f\n",sum);
+    mul=a*b;
+    printf("multiplication of 2 int is %f\n",mul);
+    sub=a-b;
+    printf("subtraction of 2 int is %f\n",sub);
+    div=a/b;
+    printf("division of 2 int is %f\n",div);
+    return 0;
+}
