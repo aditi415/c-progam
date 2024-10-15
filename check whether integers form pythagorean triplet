@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int a, b,c;
+    printf("Enter three integers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    int x = a * a;
+    int y = b * b;
+    int z = c * c;
+    if ((x == y + z) || (y == x + z) || (z == x + y)) {
+        printf("The numbers %d, %d, and %d form a Pythagorean triplet.\n", a, b, c);
+    } else {
+        printf("The numbers %d, %d, and %d do not form a Pythagorean triplet.\n", a, b, c);
+    }
+    return 0;
+}
+
