@@ -6,5 +6,4 @@ int main()
     scanf("%d",&i);
     printf("%d is an integer",i);
     return 0;
-
 }
